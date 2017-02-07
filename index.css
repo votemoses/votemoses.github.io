@@ -1,3 +1,8 @@
+body {
+	margin: none;
+	padding: none;
+}
+
 .logo {
 	width: 50vw;
 	position: fixed;
@@ -6,3 +11,132 @@
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+.topblock {
+
+
+}
+
+.topblockimage {
+	width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.textfade {
+	background-color: none;
+  position:absolute;
+  padding-right: 150px;
+  padding-top: 70px;
+  right: 0;
+  top: 0;
+  z-index: 2;
+
+}
+
+.bigthree1 {
+	font-family: 'Biryani';
+	font-weight: 900;
+	font-size: 55pt;
+	animation: pulse1 7s infinite;
+	margin: 0;
+	margin-bottom: -60px;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+
+@keyframes pulse1 {
+  0% {
+	opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  75% {
+  	opacity: 1;
+  }
+  100% {
+  	opacity: 0;
+  }
+}
+
+.bigthree2 {
+	font-family: 'Biryani';
+	font-weight: 900;
+	font-size: 55pt;
+	animation: pulse2 7s infinite;
+	margin: 0;
+	margin-bottom: -60px;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+
+@keyframes pulse2 {
+  0% {
+	opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+  	opacity: 1;
+  }
+  75% {
+  	opacity: 1;
+  }
+  100% {
+  	opacity: 0;
+  }
+}
+
+.bigthree3 {
+	font-family: 'Biryani';
+	font-weight: 900;
+	font-size: 55pt;
+	animation: pulse3 7s infinite;
+	margin: 0;
+	margin-bottom: -60px;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+
+@keyframes pulse3 {
+  0% {
+	opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  20% {
+  	opacity: 0;
+  }
+  30% {
+  	opacity: 1;
+  }
+  80% {
+  	opacity: 1;
+  }
+  100% {
+  	opacity: 0;
+  }
+}
+
+.secondblockimage {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
