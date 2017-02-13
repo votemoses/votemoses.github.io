@@ -38,10 +38,10 @@ body {
 .bigthree1 {
 	font-family: 'Biryani';
 	font-weight: 900;
-	font-size: 55pt;
+	font-size: 5vw;
 	animation: pulse1 7s infinite;
 	margin: 0;
-	margin-bottom: -60px;
+	margin-bottom: -50px;
 	padding: 0;
 	text-align: center;
 	color: white;
@@ -65,10 +65,10 @@ body {
 .bigthree2 {
 	font-family: 'Biryani';
 	font-weight: 900;
-	font-size: 55pt;
+	font-size: 5vw;
 	animation: pulse2 7s infinite;
 	margin: 0;
-	margin-bottom: -60px;
+	margin-bottom: -50px;
 	padding: 0;
 	text-align: center;
 	color: white;
@@ -95,10 +95,10 @@ body {
 .bigthree3 {
 	font-family: 'Biryani';
 	font-weight: 900;
-	font-size: 55pt;
+	font-size: 5vw;
 	animation: pulse3 7s infinite;
 	margin: 0;
-	margin-bottom: -60px;
+	margin-bottom: -50px;
 	padding: 0;
 	text-align: center;
 	color: white;
@@ -127,6 +127,25 @@ body {
 
 .secondblockimage {
   width: 100%;
+}
+
+.intro {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -100px;
+}
+
+.intro > p  {
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 14pt;
+  text-align: justify;
+
+}
+
+.intro > p > b {
+  font-size: 20pt;
 }
 
 
