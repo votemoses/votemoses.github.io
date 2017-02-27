@@ -315,6 +315,11 @@ a:hover {
   font-size: 14pt;
 }
 
+.experience > p > b {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 .fourthblock {
   width: 100%;
   position: absolute;
@@ -332,6 +337,10 @@ a:hover {
 
 .votinginfo > b {
   text-align: center;
+}
+
+.dates > br {
+  display: none;
 }
 
 
@@ -524,6 +533,7 @@ a:hover {
 
   .titlebar > p {
     font-size: 14pt;
+    padding-top: 15px;
   }
 }
 
@@ -717,9 +727,23 @@ a:hover {
   font-size: 18pt;
 }
 
-  .dates {
-    display: none;
+  .dates > br {
+    display: inline;
   }
+
+  .experience > p {
+    font-size: 14pt;
+  }
+
+  .experience > p > b {
+    font-size: 16pt;
+  }
+
+  .fourthblock {
+    margin-top: 160;
+  }
+
+
 }
 
 @media screen and (max-width: 375px) {
@@ -758,11 +782,29 @@ a:hover {
 
   .experience > p {
     text-align: center;
-    font-size: 8pt;
+    font-size: 12pt;
+  }
+
+  .experience > p > b {
+    font-size: 14pt;
   }
 
   .thirdblock {
-    height:900px;
+    height:540px;
   }
+
+  .secondblock > .oer > .textblock > p > b {
+    font-size: 14pt;
+  }
+  .secondblock > .mentalhealth > .textblock > p > b {
+    font-size: 14pt;
+  }
+  .secondblock > .transparency > .textblock > p > b {
+    font-size: 14pt;
+  }
+
+}
+
+@media screen and (max-width: 325px) {
 
 }
