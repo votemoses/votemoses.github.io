@@ -308,4 +308,23 @@ a:hover {
   font-size: 16pt;
 }
 
+.fourthblock {
+  width: 100%;
+  position: absolute;
+  margin-top: 489px;
+
+}
+.votinginfo {
+  font-family: "Nunito";
+  font-size: 16pt;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.votinginfo > b {
+  text-align: center;
+}
+
 
