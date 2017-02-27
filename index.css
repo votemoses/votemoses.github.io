@@ -320,7 +320,7 @@ a:hover {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+  text-align: centerå;
 }
 
 .votinginfo > b {
@@ -328,3 +328,187 @@ a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2000px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 80pt;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 70pt;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 60pt;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .textfade {
+  padding-right: 80px;
+  padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 50pt;
+  }
+
+  .intro {
+    margin-top: -80px;
+  }
+
+  .iconblock {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .oericon, .mentalhealthicon, .transparencyicon {
+    height: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .textfade {
+  padding-right: 30px;
+  padding-top: 15px;
+  }
+
+  .intro > p {
+    text-align: justify;
+  }
+
+  .intro > p > b {
+    font-size: 18pt;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 40pt;
+    text-align: right;
+    padding-top: 12px;
+  }
+
+  .textfade {
+    padding-top: 5px;
+  }
+
+  .intro {
+    margin-top: -50px;
+    width: 80%;
+  }
+
+  .intro > p > b {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 35pt;
+    text-align: right;
+    padding-top: 12px;
+  }
+
+  .textfade {
+    padding-top: 5px;
+  }
+
+  .intro {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .intro > p {
+    font-size: 12pt;
+  }
+
+  .intro > p > b {
+    font-size: 16pt;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 30pt;
+    text-align: right;
+    padding-top: 12px;
+    margin-top: 10px;
+  }
+
+  .textfade {
+    margin-top: -15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 25pt;
+    text-align: right;
+    padding-top: 12px;
+  }
+  .textfade{
+    margin-top: -5px;
+    padding-right: 50px;
+  }
+
+   .intro > p > b {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 425px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 20pt;
+    text-align: right;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bigthree1, .bigthree2, .bigthree3 {
+    font-size: 18pt;
+    text-align: right;
+    padding-top: 20px;
+  }
+
+  .textfade {
+    margin-top: -40px;
+    padding-right: 20px;
+  }
+
+  .topblock {
+    width: 100%;
+
+  }
+
+  .oericon, .mentalhealthicon, .transparencyicon {
+    height: 50px;
+  }
+
+
+}
