@@ -227,15 +227,17 @@ body {
   font-size: 12pt;
   margin-bottom: 0;
   margin-top: 0;
+  text-align: justify;
 }
 
-.secondblock > .mentalhealth > .textblock {
+.secondblock > .mentalhealth > .textblock  {
   width: 75%;
   background-color: none;
   padding-top: 0px;
   margin-top: 20px;
    margin-left: auto;
   margin-right: auto;
+  text-align: justify;
 }
 .secondblock > .mentalhealth > .textblock > p > b {
   font-weight: 700;
@@ -251,6 +253,7 @@ body {
   font-size: 12pt;
   margin-bottom: 0;
   margin-top: 0;
+  text-align: justify;
 }
 
 .secondblock > .transparency > .textblock {
@@ -275,6 +278,7 @@ body {
   font-size: 12pt;
   margin-bottom: 0;
   margin-top: 0;
+  text-align: justify;
 }
 
 a {
@@ -446,6 +450,7 @@ a:hover {
 
   .intro > p > b {
     font-size: 16pt;
+    text-align: left;
   }
 }
 
@@ -477,9 +482,74 @@ a:hover {
    .intro > p > b {
     font-size: 14pt;
   }
+
+  .oer, .mentalhealth, .transparency {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .secondblock > .oer > .textblock {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+   
+  }
+
+   .secondblock > .mentalhealth > .textblock {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+   .secondblock > .transparency > .textblock {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .secondblock {
+    height: auto;
+  }
+
+  .titlebar > p {
+    font-size: 14pt;
+    padding-top: 15px;
+  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
+ .intro > p > b {
+    font-size: 13pt;
+  }
+  .textfade {
+    padding-right: 25px;
+    margin-top: -15px;
+  }
+
+  .intro {
+    margin-top: -30px;
+  }
+
+  .oericon, .mentalhealthicon, .transparencyicon {
+    height: 70px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .transparencyicon {
+    margin-bottom: 0;
+  }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+  .intro {
+    margin-top: -25px;
+  }
+}
+
 
 @media screen and (max-width: 425px) {
   .bigthree1, .bigthree2, .bigthree3 {
@@ -487,6 +557,37 @@ a:hover {
     text-align: right;
     padding-top: 20px;
   }
+
+  .textfade {
+    margin-top: -25px;
+  }
+
+  .intro > p > b {
+    font-size: 18pt;
+    line-height: 25px;
+    text-align: left;
+  }
+
+   .titlebar > p {
+    font-size: 12pt;
+    padding-top: 20px;
+  }
+
+  .oericon, .mentalhealthicon, .transparencyicon {
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .secondblock > .oer > .textblock > p > b {
+  font-size: 18pt;
+}
+ .secondblock > .mentalhealth > .textblock > p > b {
+  font-size: 18pt;
+}
+ .secondblock > .transparency > .textblock > p > b {
+  font-size: 18pt;
+}
 }
 
 @media screen and (max-width: 375px) {
@@ -497,7 +598,7 @@ a:hover {
   }
 
   .textfade {
-    margin-top: -40px;
+    margin-top: -20px;
     padding-right: 20px;
   }
 
@@ -506,9 +607,21 @@ a:hover {
 
   }
 
-  .oericon, .mentalhealthicon, .transparencyicon {
+  .oericon, .mentalhealthicon {
     height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .transparencyicon {
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
+   .titlebar > p {
+    font-size: 10pt;
+    padding-top: 20px;
+  }
 
 }
